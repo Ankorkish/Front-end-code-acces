@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+.main{
+    display: flex;
+
+    flex-direction: column;
+    gap: 4px;
+    padding: 20px;
+    background-color: black;
+
+    width: fit-content;
+}
+
+.item{
+    background-color: black;
+    padding: 20px;
+    width: 150px;
+    border-radius: 999px;
+    color: white;
+    text-align: left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+
+    transition-duration:0.2s;
+}
+
+.item:hover{
+    background-color: #2A2A2A;
+}
